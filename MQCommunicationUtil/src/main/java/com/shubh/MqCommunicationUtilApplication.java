@@ -29,6 +29,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 import com.ibm.mq.MQException;
 import com.ibm.mq.MQQueueManager;
 
+
+/**
+ * CLass MqCommunicationUtilApplication
+ * */
 @SpringBootApplication
 public class MqCommunicationUtilApplication extends JFrame {
 
