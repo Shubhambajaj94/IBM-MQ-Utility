@@ -1,0 +1,10 @@
+//Dowload below jars from http://www.java2s.com/Code/Jar/c/Downloadcomibmmqjar.htm
+
+
+mvn install:install-file -Dfile={Jar Path}\com.ibm.mq.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq -Dversion=7.1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile={Jar Path}\com.ibm.mq.axis2.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.axis2 -Dversion=7.1.0.1 -Dpackaging=jar
+mvn install:install-file -Dfile={Jar Path}\com.ibm.mq.commonservices_7.0.1.1.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.commonservices -Dversion=7.1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile={Jar Path}\com.ibm.mq.defaultconfig.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.defaultconfig -Dversion=7.1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile={Jar Path}\com.ibm.mq.headers.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.headers -Dversion=7.1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile={Jar Path}\com.ibm.mq.pcf.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.pcf -Dversion=7.1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile={Jar Path}\j2ee-1.4.jar -DgroupId=javax.j2ee -DartifactId=j2ee -Dversion=1.4 -Dpackaging=jar
